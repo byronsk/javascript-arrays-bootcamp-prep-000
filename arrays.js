@@ -13,3 +13,8 @@ function destructivelyAddElementToBeginningOfArray (chocolateBars, element) {
 function addElementToEndOfArray (chocolateBars, element) {
   return [...chocolateBars, element];
 }
+
+function destructivelyAddElementToEndOfArray (chocolateBars, element) {
+  chocolateBars.push(element);
+  
+}
